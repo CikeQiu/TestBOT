@@ -1,0 +1,6 @@
+framework module Pods_TestBOT {
+  umbrella header "Pods-TestBOT-umbrella.h"
+
+  export *
+  module * { export * }
+}

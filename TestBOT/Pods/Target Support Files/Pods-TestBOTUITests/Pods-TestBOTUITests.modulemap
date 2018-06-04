@@ -1,0 +1,6 @@
+framework module Pods_TestBOTUITests {
+  umbrella header "Pods-TestBOTUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
