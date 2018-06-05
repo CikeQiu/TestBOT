@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        #if Test
+        #if TEST
         label.text = "Test"
         #else
         label.text = "Normal"

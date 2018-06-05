@@ -39,11 +39,14 @@
 /* Begin PBXFileReference section */
 		065F2EF2BCDE55818F8CEA60 /* Pods_TestBOT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBOT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CFA4D03FB01450DD79F11D /* Pods-TestBOTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOTTests/Pods-TestBOTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E59875E0B07C5BB0D099C9C /* Pods-TestBOTTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOTTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOTTests/Pods-TestBOTTests.test.xcconfig"; sourceTree = "<group>"; };
 		33563FD82A171DA6CF7A51BE /* Pods-TestBOT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOT/Pods-TestBOT.debug.xcconfig"; sourceTree = "<group>"; };
+		7EFA5D812EF507EAFF2ECD6F /* Pods-TestBOTUITests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOTUITests.test.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOTUITests/Pods-TestBOTUITests.test.xcconfig"; sourceTree = "<group>"; };
 		7F454F610ECDE617542E3EB0 /* Pods-TestBOT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOT.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOT/Pods-TestBOT.release.xcconfig"; sourceTree = "<group>"; };
 		92F298BA49A92CF89E4AD9CE /* Pods_TestBOTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBOTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		952DD02D3C7EFE2C5ABB556F /* Pods-TestBOTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOTTests/Pods-TestBOTTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D69B69997ECF1B333156D7C /* Pods_TestBOTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBOTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA678ECA20C66D920025FAC0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA80C08520C4F34400C7D7D3 /* TestBOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA80C08820C4F34400C7D7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA80C08A20C4F34400C7D7D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		BA80C0A820C4F34500C7D7D3 /* TestBOTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBOTUITests.swift; sourceTree = "<group>"; };
 		BA80C0AA20C4F34500C7D7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB4DF81C792DCC7BC1528C1 /* Pods-TestBOTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOTUITests/Pods-TestBOTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9CF8AD5B09CAE73D24D842 /* Pods-TestBOT.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOT.test.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOT/Pods-TestBOT.test.xcconfig"; sourceTree = "<group>"; };
 		F86A503E01BC21A2D99E961A /* Pods-TestBOTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBOTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBOTUITests/Pods-TestBOTUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +102,9 @@
 				952DD02D3C7EFE2C5ABB556F /* Pods-TestBOTTests.release.xcconfig */,
 				ECB4DF81C792DCC7BC1528C1 /* Pods-TestBOTUITests.debug.xcconfig */,
 				F86A503E01BC21A2D99E961A /* Pods-TestBOTUITests.release.xcconfig */,
+				ED9CF8AD5B09CAE73D24D842 /* Pods-TestBOT.test.xcconfig */,
+				2E59875E0B07C5BB0D099C9C /* Pods-TestBOTTests.test.xcconfig */,
+				7EFA5D812EF507EAFF2ECD6F /* Pods-TestBOTUITests.test.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -105,6 +112,7 @@
 		70ED176999D05728BC058CCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA678ECA20C66D920025FAC0 /* Alamofire.framework */,
 				065F2EF2BCDE55818F8CEA60 /* Pods_TestBOT.framework */,
 				92F298BA49A92CF89E4AD9CE /* Pods_TestBOTTests.framework */,
 				9D69B69997ECF1B333156D7C /* Pods_TestBOTUITests.framework */,
@@ -487,19 +495,17 @@
 		};
 		BA678EC220C66BBE0025FAC0 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F454F610ECDE617542E3EB0 /* Pods-TestBOT.release.xcconfig */;
+			baseConfigurationReference = ED9CF8AD5B09CAE73D24D842 /* Pods-TestBOT.test.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOT/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" Test";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-DTEST\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -507,18 +513,14 @@
 		};
 		BA678EC320C66BBE0025FAC0 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 952DD02D3C7EFE2C5ABB556F /* Pods-TestBOTTests.release.xcconfig */;
+			baseConfigurationReference = 2E59875E0B07C5BB0D099C9C /* Pods-TestBOTTests.test.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOTTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -529,17 +531,13 @@
 		};
 		BA678EC420C66BBE0025FAC0 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F86A503E01BC21A2D99E961A /* Pods-TestBOTUITests.release.xcconfig */;
+			baseConfigurationReference = 7EFA5D812EF507EAFF2ECD6F /* Pods-TestBOTUITests.test.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOTUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOTUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -670,10 +668,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOT/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -689,10 +684,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOT/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -709,11 +701,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOTTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -731,11 +719,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOTTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -752,11 +736,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOTUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOTUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -773,11 +753,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YG66PBSGJG;
 				INFOPLIST_FILE = TestBOTUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbill.TestBOTUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
